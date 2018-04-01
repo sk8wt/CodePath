@@ -25,7 +25,7 @@ TEST!!![caption width="1" caption='<a href="' ">]</a><a href="http://onMouseOver
     - Vulnerability types: Cross-site scripting
     - Tested in version: 4.2
     - Fixed in version: 4.2.2
-  - [x] GIF Walkthrough: attack2.gif
+  - [x] GIF Walkthrough: <img src=“https://github.com/sk8wt/CodePath/blob/master/attack2.gif” width=“800”>
   - [x] Steps to recreate: Click the link (https://wpvulndb.com/vulnerabilities/7979) and follow the URL link embedded in the document. Copy this link and paste it into the WordPress page. When the page is loaded, the cross-site message pops up and the page will be vulnerable to attack.
   - [x] Affected source code:  http://www.example.com/wp-content/themes/twentyfifteen/genericons/example.html#1<img/ src=1 onerror= alert(1)>
     - [Link 1]( https://wpvulndb.com/vulnerabilities/7979 )
