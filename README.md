@@ -34,7 +34,7 @@ TEST!!![caption width="1" caption='<a href="' ">]</a><a href="http://onMouseOver
     - Vulnerability types: Cross-site scripting
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
-  - [x] GIF Walkthrough: attack3.gif
+  - [x] GIF Walkthrough: <img src="https://github.com/sk8wt/CodePath/blob/master/attack3.gif" width="800">
   - [x] Steps to recreate: Click the link (blog.securri…) and follow the URL link embedded in the document. Copy this link and paste it into the WordPress page. When the page is loaded, the cross-site message pops up and the page will be vulnerable to attack. 
   - [x] Affected source code: https://youtube[.]com/watch?v=abc<svg onload=alert(1)>
     - [Link 1]( https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html)
