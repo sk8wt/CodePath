@@ -16,7 +16,7 @@ Time spent: **2.5** hours spent in total
     - Fixed in version: 4.2.6
   - [x] GIF Walkthrough: <img src="https://github.com/sk8wt/CodePath/blob/master/attack1.gif" width="800">
   - [x] Steps to recreate: Go to https://wpvulndb.com/vulnerabilities/8186, copy the text in the website, and paste it on any page in wordpress. When it’s opened, it’ll pop up when you mouse over and give a notification.
-  - [x] Affected source code:
+  - [x] Affected source code: https://blog.checkpoint.com/2015/09/15/finding-vulnerabilities-in-core-wordpress-a-bug-hunters-trilogy-part-iii-ultimatum/
 TEST!!![caption width="1" caption='<a href="' ">]</a><a href="http://onMouseOver='alert(1)'">Click me</a>
 
     - [Link 1](https://wpvulndb.com/vulnerabilities/8186)
@@ -27,7 +27,8 @@ TEST!!![caption width="1" caption='<a href="' ">]</a><a href="http://onMouseOver
     - Fixed in version: 4.2.2
   - [x] GIF Walkthrough: <img src="https://github.com/sk8wt/CodePath/blob/master/attack2.gif" width="800">
   - [x] Steps to recreate: Click the link (https://wpvulndb.com/vulnerabilities/7979) and follow the URL link embedded in the document. Copy this link and paste it into the WordPress page. When the page is loaded, the cross-site message pops up and the page will be vulnerable to attack.
-  - [x] Affected source code:  http://www.example.com/wp-content/themes/twentyfifteen/genericons/example.html#1<img/ src=1 onerror= alert(1)>
+  - [x] Affected source code:  https://codex.wordpress.org/Version_4.2.2
+  http://www.example.com/wp-content/themes/twentyfifteen/genericons/example.html#1<img/ src=1 onerror= alert(1)>
     - [Link 1]( https://wpvulndb.com/vulnerabilities/7979 )
 1. Title: WordPress  4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
   - [x] Summary: This attack allows someone to embed a youtube link in a page, such that when the page is launched or the link is clicked, an alert pops up. Though the youtube link looks legitimate, in reality it’s vulnerable to an attack. 
@@ -36,8 +37,10 @@ TEST!!![caption width="1" caption='<a href="' ">]</a><a href="http://onMouseOver
     - Fixed in version: 4.2.13
   - [x] GIF Walkthrough: <img src="https://github.com/sk8wt/CodePath/blob/master/attack3.gif" width="800">
   - [x] Steps to recreate: Click the link (blog.securri…) and follow the URL link embedded in the document. Copy this link and paste it into the WordPress page. When the page is loaded, the cross-site message pops up and the page will be vulnerable to attack. 
-  - [x] Affected source code: https://youtube[.]com/watch?v=abc<svg onload=alert(1)>
+  - [x] Affected source code: https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8
+  https://youtube[.]com/watch?v=abc<svg onload=alert(1)>
     - [Link 1]( https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html)
+    - [Link 2] (https://wpvulndb.com/vulnerabilities/8768)
 
 
 ## Assets
