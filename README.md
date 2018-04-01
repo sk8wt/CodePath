@@ -14,8 +14,7 @@ Time spent: **2.5** hours spent in total
     - Vulnerability types: Cross-site scripting
     - Tested in version: 4.2
     - Fixed in version: 4.2.6
-  - [x] GIF Walkthrough: 
-  <img src=“https://github.com/sk8wt/CodePath/blob/master/attack1.gif” width=“800”>
+  - [x] GIF Walkthrough: <img src=“https://github.com/sk8wt/CodePath/blob/master/attack1.gif” width=“800”>
   - [x] Steps to recreate: Go to https://wpvulndb.com/vulnerabilities/8186, copy the text in the website, and paste it on any page in wordpress. When it’s opened, it’ll pop up when you mouse over and give a notification.
   - [x] Affected source code:
 TEST!!![caption width="1" caption='<a href="' ">]</a><a href="http://onMouseOver='alert(1)'">Click me</a>
